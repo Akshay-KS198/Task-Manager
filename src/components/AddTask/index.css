@@ -1,0 +1,40 @@
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+.forms-container {
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+}
+  form input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  form button {
+    width: 250px;
+    background-color: rgba(192, 34, 213, 0.714);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 110px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+  }
+  
+  form button:hover {
+    background-color: rgb(223, 0, 223);
+  }
+  
